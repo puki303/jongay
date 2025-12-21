@@ -1,0 +1,19 @@
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/koremgap/.ssh/id_rsa.
+Your public key has been saved in /home/koremgap/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:EkLX/rrYdprxYG8h8Cx+MUI6N5hynArr9ZXOEP/SfVM 
+The key's randomart image is:
++---[RSA 4096]----+
+|    . ..         |
+|   . .  .        |
+|    . ..         |
+|     .o..        |
+|   . B.+S.       |
+|. . O B.B o    E |
+| o = = B==..  .  |
+|. o . *==Bo. o   |
+|..   ..=**o . .  |
++----[SHA256]-----+
