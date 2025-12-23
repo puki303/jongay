@@ -1,7 +1,14 @@
-Options -Indexes
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
 RewriteEngine On
-DirectoryIndex index.html
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
 
+# Mengecek jika permintaan bukan berupa file yang ada
 RewriteCond %{REQUEST_FILENAME} !-f
+# Mengecek jika permintaan bukan berupa direktori yang ada
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ / [R=301,L]
+# Jika file/direktori tidak ditemukan, lempar ke index.php
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
